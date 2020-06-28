@@ -62,7 +62,7 @@ allInput.forEach( function( input ) {
 
 outputButton.addEventListener("click", function(event){
 
-    targetOuptut.innerHTML = "#targetButton{"+ "<br />" + "font-size: " + targetButton.style.fontSize+ ";<br />" + "color: " + targetButton.style.color+ ";<br />" + "background-color: " + targetButton.style.backgroundColor+ ";<br />" + "border-color: " + targetButton.style.borderColor+ ";<br />" + "border-radius: " + targetButton.style.borderRadius+ ";<br />}";
+    targetOuptut.innerHTML = "#targetButton{"+ "<br />" + "font-size: " + targetButton.style.fontSize+ ";<br />" + "color: " + targetButton.style.color+ ";<br />" + "background-color: " + targetButton.style.backgroundColor+ ";<br />" + "border-color: " + targetButton.style.borderColor+ ";<br />" + "border-radius: " + targetButton.style.borderRadius+ ";<br />" +  "width: " + targetButton.style.width+ ";<br /> }";
     event.preventDefault();
 
 })
