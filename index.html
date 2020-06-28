@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Customizer</title>
+    <link rel="stylesheet" href="./assets/milligram.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="customizer">
+            <div class="customizer-top">
+                <h3>Customize Button Easily</h3>
+            </div>
+
+            <div class="customizer-bottom">
+                <div class="customizer-left">
+                    <div class="customizer-content-inner-top">
+                        <h3>Button Details</h3>
+                    </div>
+                    <div class="customizer-content-inner-bottom">
+                        <form action="" method="post">
+                            <label for="button-text">Button Text</label>
+                            <input type="text" name="button-text" id="button-text" class="bt-input">
+
+                            <label for="button-text-size">Font Size</label>
+                            <input min="16" max="80" type="range" name="button-text-size" id="button-text-size" class="bt-input">
+
+                            <label for="button-size">Button Size</label>
+                            <input min="50" max="100" type="range" name="button-size" id="button-size" class="bt-input">
+
+                            <label for="button-text-color">Text Color</label>
+                            <input type="color" name="button-text-color" id="button-text-color" class="bt-input">
+
+                            <label for="button-bg">Background Color</label>
+                            <input type="color" name="button-bg" id="button-bg" class="bt-input">
+
+                            <label for="button-border-color">Border Color</label>
+                            <input type="color" name="button-border-color" id="button-border-color" class="bt-input">
+                            
+                            <label for="button-border-radius">Border Radius</label>
+                            <input min="0" max="50" type="range" name="button-border-radius" id="button-border-radius" class="bt-input">
+
+                            
+
+                            <a href="#" id="get-code">Get CSS Code</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="customizer-right">
+                    <div class="customizer-content-inner-top">
+                        <h3>Output</h3>
+                    </div>
+                    <div class="customizer-content-inner-bottom">
+                        <button id="targetButton"></button>
+                        <div class="output">
+                           
+                            <code id="output-code"></code>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
